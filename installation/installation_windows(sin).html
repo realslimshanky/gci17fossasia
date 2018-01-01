@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>ප්‍රාදේශීය සංවර්ධන සැකසුම | gci17.fossasia.org</title>
+<meta property="og:title" content="ප්‍රාදේශීය සංවර්ධන සැකසුම" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="FOSSASIA Google Code-In Website 2017/18 http://gci17.fossasia.org" />
+<meta property="og:description" content="FOSSASIA Google Code-In Website 2017/18 http://gci17.fossasia.org" />
+<link rel="canonical" href="http://localhost:4000/installation/installation_windows(sin).html" />
+<meta property="og:url" content="http://localhost:4000/installation/installation_windows(sin).html" />
+<meta property="og:site_name" content="gci17.fossasia.org" />
+<script type="application/ld+json">
+{"name":null,"description":"FOSSASIA Google Code-In Website 2017/18 http://gci17.fossasia.org","author":null,"@type":"WebPage","url":"http://localhost:4000/installation/installation_windows(sin).html","publisher":null,"image":null,"headline":"ප්‍රාදේශීය සංවර්ධන සැකසුම","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link href="/assets/css/style.css?v=9d252a0b2f3e5ec0dceabf000d5d2f9e5c89c15b" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+        <h1><a href="http://localhost:4000/">gci17.fossasia.org</a></h1>
+      
+
+      <h1 id="ප්රාදේශීය-සංවර්ධන-සැකසුම">ප්‍රාදේශීය සංවර්ධන සැකසුම</h1>
+
+<p>මෙම පිටුවෙහි ඇති උපදෙස් ඔබට වින්ඩෝස් පාරිසරිකය තුල ප්‍රාදේශීය ප්‍රවර්ධන සැකසුමට මග පෙන්වනු ඇත.</p>
+
+<h3 id="ruby-ස්ථාපනය-කිරීම">Ruby ස්ථාපනය කිරීම</h3>
+<ol>
+  <li><a href="https://rubyinstaller.org/downloads/">Ruby හා සංවර්ධන කට්ටලය ස්ථාපනය කිරීම</a>. Ruby ස්ථාපනය අතරතුරදී “Add Ruby executables to your PATH” යන්න යොදන්න.
+උදා:- 64-bit ආකෘතිය ස්ථාපනය සඳහා <a href="https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.3.3-i386-mingw32.7z">Ruby2.3.3</a></li>
+  <li><a href="https://rubyinstaller.org/downloads/">අදාල Ruby DevKit ස්ථාපනය කරන්න කිරීම</a> උදා:- අනුරූපී <a href="https://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe">සංවර්ධක කට්ටලය</a>.
+ඔබ විසින් ගොනුව ක්‍රියාත්මක කරන විට, එය ගොනු සඳහා යොමුවක් ඔබෙන් විමසනු ඇත. එය ගොනු සඳහා යොමුවක් ඔබෙන් විමසනු ඇත. එය තුළ අවකාශයක් නොමැති මාර්ගයක් ඇතුළු කරන්න. හිස්තැන් නොමැති යොමුවක් එහි ලියනය කරන්න.</li>
+  <li>ඔබ විසින් ඔබගේ විධාන රේඛාව භාවිතා කරමින් DevKit උද්ධරණය කර ගත් ෆෝල්ඩරය වෙත යන්න. උදා:- <code class="highlighter-rouge">powershell</code> හෝ <code class="highlighter-rouge">cmd</code> භාවිතා කරමින්</li>
+  <li><code class="highlighter-rouge">ruby dk.rb review</code> අනුගමනය කරමින් විධාන රේඛා අතුරු මුහුණතේ <code class="highlighter-rouge">ruby dk.rb init</code> යැයි ද අවසානයේ Ruby ස්ථාපනය සම්බන්ධ කර ගනිමින් DevKit ස්ථාපනය සම්පූර්ණ කිරීම සඳහා <code class="highlighter-rouge">ruby dk.rb install</code> යැයි ද ලියනය කරන්න.</li>
+</ol>
+
+<h3 id="jekyll-ස්ථාපනය-කිරීම">jekyll ස්ථාපනය කිරීම</h3>
+<ol>
+  <li>cmd විවෘත කර <code class="highlighter-rouge">gem install jekyll bundler</code> යැයි ලියනය කරන්න.</li>
+</ol>
+
+<h3 id="setting-up-locally">Setting up locally</h3>
+<ol>
+  <li>රෙපෝසිට්‍රිය ෆොර්ක් කර ගන්න.</li>
+  <li>git ටර්මිනලය (Git bash in windows) විවෘත කර ඔබගේ ෆොර්ක් කරගත් රෙපෝව පෙ.අ.* <code class="highlighter-rouge">git clone https://github.com/&lt;your_username&gt;/gci17.fossasia.org.git</code> ඔබට අවශ්‍ය යොමුවක පිටපත් කරගන්න.</li>
+  <li>යොමුව ප්‍රාදේශීය රෙපෝවට මාරු කරන්න. පෙ.අ.* <code class="highlighter-rouge">cd gci17.fossasia.org</code>. <code class="highlighter-rouge">Gemfile</code> තිබේ දැයි බැලීමට <code class="highlighter-rouge">ls</code> ලෙස ලියනය කරන්න.</li>
+  <li>යැපෙන්නන් ස්ථාපනයට <code class="highlighter-rouge">bundle install</code> ලියනය කරන්න.</li>
+  <li><code class="highlighter-rouge">gem install jekyll-sitemap</code>හා අනතුරුව <code class="highlighter-rouge">gem install jekyll-paginate</code> ලියනය කරන්න.(එය පෙර පියවරේදී ස්ථාපනය කර තිබේ නම් අවශ්‍ය නොවේ.)</li>
+  <li>දැන් Gemfile(ඕනෑම වදන් සකසනයක් මඟින් උදා:- sublime) සමඟ විවෘත කරන්න, ඉන්පසු <code class="highlighter-rouge">#gem 'github-pages', group: :jekyll_plugins</code> තුළ පවතින ‘#’ ඉවත් කර <code class="highlighter-rouge">gem 'jekyll-sitemap'</code>,<code class="highlighter-rouge">gem 'jekyll-paginate'</code> වලට ‘#’ යොදන්න. ගොනුව සුරකින්න.</li>
+  <li><code class="highlighter-rouge">bundle exec jekyll serve</code> යැයි ලියනය කරන්න. ඔබ සර්වර් ලිපිනයක් දකිනු ඇත.</li>
+  <li>දැන් ඔබගේ සේවාදායකය ක්‍රියාත්මක වෙමින් පවතී. gci17.fossasia.org පිටුව බැලීමට,<code class="highlighter-rouge">localhost:4000</code> වෙත යන්න.</li>
+</ol>
+
+<p>*පෙ.අ. - පෙන්වන  අයුරින්</p>
+
+
+      
+    </div>
+    <script src="/assets/javascript/anchor-js/anchor.min.js"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

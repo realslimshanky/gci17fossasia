@@ -1,0 +1,950 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>FOSSASIA | Google Code-In 2017</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme-red.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/hover.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/blog.css" rel="stylesheet" type="text/css" media="all" />	
+		<link href="css/hover-media-links.css" rel="stylesheet" type="text/css" media="all">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+		<link rel="icon" href="favicon.ico" />
+	</head>
+
+	<body class="scroll-assist">
+		<div class="nav-container" id="welcome">
+			<nav>
+				<div class="nav-bar">
+					<div class="module left">
+						<a href="https://fossasia.org">
+							<img class="logo logo-dark" alt="FOSSASIA" src="img/fossasia-dark.png" width="110px" height="18.69">
+						</a>
+					</div>
+					<div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</div>
+					<div class="module-group right">
+		                <div class="module left">
+		                    <ul class="menu">
+		                    	<li>
+		                            <a href="./#welcome">Welcome</a>
+		                        </li>	                    
+		                        <li>
+		                            <a href="./#mentors">Mentors</a>
+		                        </li>
+		                        <li>
+		                            <a href="./#contributors">Contributors</a>
+		                        </li>
+		                        <li>
+		                            <a href="./#students">Student</a>
+		                        </li>
+		                        <li>
+		                            <a href="./#projects">Projects</a>
+		                        </li>
+					<li class="has-dropdown">
+		                            <a href="#">
+		                                Fossasia Projects
+		                            </a>
+		                            <ul>
+						<li>
+							<a href=" ./#fossasia-projects">Open-Event Android App</a>
+						</li>
+						<li>
+							<a href=" ./#sus">Susi.ai</a>
+						</li>
+						<li>
+							<a href=" ./#loki">Loklak Search</a>
+						</li>
+						<li>
+							<a href=" ./#other-projects">Other Sister Projects</a>
+						</li>
+						</ul>
+					</li>	
+		                        <li>
+		                            <a href="./repositories.html">Repositories</a>
+		                        </li>
+		                        <li>
+									<a href="./#map-sec">Map</a>
+								</li>
+		                        <li>
+		                            <a href="./#student-blog">Blog Posts</a>
+		                        </li>
+		                       
+		                        <li>
+		                        	<a class="code-in-nav" href="https://codein.withgoogle.com/organizations/fossasia/">Google Code-In</a>
+		                        </li>
+		                        <li class="has-dropdown">
+		                            <a href="#">
+		                                Quick Links
+		                            </a>
+		                            <ul>
+		                                <li>
+		                                    <a href="https://fossasia.org/">
+		                                        Main Site
+		                                    </a>
+		                                </li>
+		                                <li>
+		                                    <a href="http://blog.fossasia.org/">
+		                                        Blog
+		                                    </a>
+		                                </li>
+		                                <li>
+											<a href="#">Events</a>
+												<ul>
+													<li><a target="_self" href="http://eventyay.com">FOSSASIA Event Management</a></li>
+													<li><a target="_self" href="http://sciencehack.asia">Science Hack Asia</a></li>
+													<li><a target="_self" href="http://sciencehack.in">Science Hack India</a></li>
+													<li><a target="_self" href="http://opentechsummit.cn">OpenTechSummit China</a></li>
+													<li><a target="_self" href="http://jugaadfest.com">Jugaadfest India</a></li>
+													<li><a target="_self" href="http://2018.fossasia.org">FOSSASIA Summit 2018</a></li>
+													<li><a target="_self" href="http://2017.fossasia.org">FOSSASIA Summit 2017</a></li>
+													<li><a href="https://gci16.fossasia.org">Google Code-In 2016</a></li>
+													<li><a href="https://gci15.fossasia.org">Google Code-In 2015</a></li>
+												</ul>
+		                                </li>
+		                                <li>
+		                                    <a href="http://events.fossasia.org/#sponsorship">
+		                                        Sponsorship
+		                                    </a>
+		                                </li>
+		                                <li>
+		                            		<a href="./#social-links">Social Links</a>
+		                        		</li>
+		                            </ul>
+		                        </li>
+		                         
+		                    </ul>
+		                </div>
+				</div>
+			</nav>
+		</div>
+
+		<div class="main-container">
+
+
+<div class="rocket">
+	<a href="javascript:void(0);" id="rocketmeluncur" class="showrocket">
+		<div class="fire"></div>
+	</a>
+</div>
+
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/aos.css" />
+<section class="bg-secondary">
+	<div class="container">
+		<div class="col-sm-12 text-center">
+			<h2 class="animated fadeIn">Repositories</h2>
+			<p class="lead mb64">Repositories to work on with</p>
+		</div>
+		<div class="col-sm-12 col-md-12 text-center spread-children-large mentor-list" id="repos"></div>
+	</div>
+</section>
+<script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+<!-- Footer -->
+			<footer class="footer-2 bg-dark" id="social-links">
+		   		<div class="container">
+					<div class="row">
+						<div class="col-sm-3 text-left">
+							<div class="vnu"><img alt="Logo" class="footer-logo" src="img/fossasia-light.png"></div>
+						</div>
+						<div class="col-sm-3 text-left"></div>
+						<div class="col-sm-6 text-right">
+							<ul class="list-inline social-list" style="font-size: 17px;padding: 10.5px;">
+								<li>
+									<a href="https://twitter.com/fossasia">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://facebook.com/fossasia">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://plus.google.com/108920596016838318216">
+										<i class="fa fa-google" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/groups/FOSSASIA-3762811">
+										<i class="fa fa-linkedin" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://github.com/fossasia">
+										<i class="fa fa-github" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://flickr.com/photos/fossasia">
+										<i class="fa fa-flickr" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ">
+										<i class="fa fa-youtube" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/fossasia">
+										<i class="fa fa-instagram" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.vk.com/fossasia">
+										<i class="fa fa-vk" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.reddit.com/r/FOSSASIA/">
+										<i class="fa fa-reddit"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		   </footer>
+
+			<footer class="footer-1 bg-dark">
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="widget">
+								<h6 class="title">Projects</h6>
+								<hr>
+								<a href="https://github.com/fossasia/open-event-server">Open Event Server</a><br>
+								<a href="https://github.com/fossasia/susi_server">Susi Server</a><br>
+								<a href="https://github.com/fossasia/loklak_search">Loklak Search</a><br>
+								<a href="https://github.com/fossasia/yaydoc">Yaydoc</a><br>
+								<a href="https://github.com/fossasia/open-event-webapp">Open Event Web App</a><br>
+								<a href="https://github.com/fossasia/susi_android">Android App for Susi</a><br>
+								<a href="https://github.com/fossasia/susi_desktop">Susi for desktop</a><br>
+								<a href="https://github.com/fossasia/meilix">Meilix - Beautiful Linux OS</a><br>
+								<a href="https://github.com/fossasia">More...</a><br>
+							</div>
+
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="widget">
+								<h6 class="title">Latest tweets</h6>
+								<hr>
+								<div class="twitter-feed">
+									<div class="tweets-feed" data-feed-name="mariobehling" id="tweets-0">
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<br><br>
+							<div class="widget">
+								<div class="twitter-feed">
+									<div class="tweets-feed" data-feed-name="hpdang" id="tweets-0">
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="widget">
+								<h6 class="title">Instagram</h6>
+								<hr>
+								<a href="https://fossasia.org/" class="foss-links"><i class="ti-world" aria-hidden="true"></i> Main Site</a><br>
+								<a href="https://blog.fossasia.org" class="foss-links"><i class="ti-rss" aria-hidden="true"></i> Blog</a><br>
+								<a href="https://codein.withgoogle.com/organizations/fossasia/" class="foss-links"><i class=" ti-bag" aria-hidden="true"></i> Google Code-In Page </a><br>
+								<a href="https://events.fossasia.org" class="foss-links"><i class=" ti-calendar" aria-hidden="true"></i> Events</a><br>
+								<a href="https://gci17.fossasia.org" class="foss-links"><i class="ti-link" aria-hidden="true"></i> Fossasia 2017</a><br>
+								<a href="#" class="foss-links"><i class="ti-arrow-up" aria-hidden="true"></i> Top of the Page</a><br>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-6">
+							<span class="sub">© Copyright 2017 - FOSSASIA</span>
+						</div>
+						<div class="col-sm-6 text-right">
+							<ul class="list-inline social-list">
+								<li>
+									<a href="https://twitter.com/fossasia">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://facebook.com/fossasia">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://plus.google.com/108920596016838318216">
+										<i class="fa fa-google" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/groups/FOSSASIA-3762811">
+										<i class="fa fa-linkedin" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://github.com/fossasia">
+										<i class="fa fa-github" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://flickr.com/photos/fossasia">
+										<i class="fa fa-flickr" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ">
+										<i class="fa fa-youtube" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/fossasia">
+										<i class="fa fa-instagram" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.vk.com/fossasia">
+										<i class="fa fa-vk" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.reddit.com/r/FOSSASIA/">
+										<i class="fa fa-reddit"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
+			</footer>
+		</div>
+
+
+	<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/flexslider.min.js"></script>
+		<script src="js/lightbox.min.js"></script>
+		<script src="js/masonry.min.js"></script>
+		<script src="js/flickr.js"></script>
+		<script src="js/twitterfetcher.min.js"></script>
+		<script src="js/spectragram.min.js"></script>
+		<script src="js/smooth-scroll.min.js"></script>
+		<script src="js/parallax.js"></script>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<script async defer src="https://apis.google.com/js/platform.js" ></script>
+		<script type="text/javascript">var issueArr = [];</script>
+		<script src="js/contributors.js"></script>
+		<script src="js/inview.js"></script>
+		<script src="js/scripts.js"></script>
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		<script type="text/javascript">
+			function googleTranslateElementInit() {
+				new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
+			}
+		</script>
+		<script type="text/javascript">
+        	/* Smooth Scroll */
+       		$('a[href*="#"]').not('[href="#"]')
+                                 .not('[href="#0"]')
+                                 .click(function(event) {
+                                     if (
+		  				location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+		  				&&
+		  				location.hostname == this.hostname
+		  			) {
+		  				var target = $(this.hash);
+		  				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+		  				if (target.length) {
+		  					event.preventDefault();
+		  					$('html, body').animate({
+		  						scrollTop: target.offset().top
+		  					}, 1000, 'swing', function() {
+		  						var $target = $(target);
+		  						$target.focus();
+		  						if ($target.is(":focus")) {
+		  							return false;
+		  						} else {
+		  							$target.attr('tabindex','-1');
+		  							$target.focus();
+		  						};
+		  					});
+		  				}
+		  			}
+                                 });
+        </script>
+        <script src="https://openlayers.org/api/OpenLayers.js"></script>
+        <script>
+            map = new OpenLayers.Map("map");
+            map.addLayer(new OpenLayers.Layer.OSM());
+    
+            epsg4326 =  new OpenLayers.Projection("EPSG:4326"); //WGS 1984 projection
+            projectTo = map.getProjectionObject(); //The map projection (Spherical Mercator)
+            var lonLat = new OpenLayers.LonLat(0,0).transform(epsg4326, projectTo);
+            map.setCenter (lonLat, 0);
+
+            var vectorLayer = new OpenLayers.Layer.Vector("Overlay");
+
+            
+                
+            
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(106.84559899999999, -6.2087634).transform(epsg4326, projectTo),
+                            {description:'Amriyono Maju Ompusunggu'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(78.0321918, 30.3164945).transform(epsg4326, projectTo),
+                            {description:'Yash Kumar Verma'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(76.26730409999999, 9.9312328).transform(epsg4326, projectTo),
+                            {description:'Abishek V Ashok'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(107.646879, -6.91551).transform(epsg4326, projectTo),
+                            {description:'Mochammad Rafi Al Rizkan'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(21.2607444, 52.128588).transform(epsg4326, projectTo),
+                            {description:'Kuba Michalski'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.26205139999999, 28.5689232).transform(epsg4326, projectTo),
+                            {description:'Saarthak Chaturvedi'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.371386, 28.641485).transform(epsg4326, projectTo),
+                            {description:'Aditya Dutt'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.2173155, 28.621091399999997).transform(epsg4326, projectTo),
+                            {description:'Samyak Jain'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(79.939276, 6.737028).transform(epsg4326, projectTo),
+                            {description:'Supun Tharinda'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(100.501765, 13.756331).transform(epsg4326, projectTo),
+                            {description:'Ploypiti Piyaprapan'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(85.1605, 25.5938).transform(epsg4326, projectTo),
+                            {description:'Piyush Raj'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(80.6337262, 7.2905714999999995).transform(epsg4326, projectTo),
+                            {description:'Naveen Rajan'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(28.6139, 77.209).transform(epsg4326, projectTo),
+                            {description:'Arjun Pandey'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(75.7861, 26.9255).transform(epsg4326, projectTo),
+                            {description:'Yash Kothari'} ,
+                            {externalGraphic: 'img/student_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );    
+                    vectorLayer.addFeatures(feature);
+                
+            
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(13.404954, 52.520007).transform(epsg4326, projectTo),
+                            {description:'Mario Behling'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(72.831061, 21.17024).transform(epsg4326, projectTo),
+                            {description:'Sumedh Nimkarde'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(103.819836, 1.352083).transform(epsg4326, projectTo),
+                            {description:'Hong Phuc Dang'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(76.779418, 30.733315).transform(epsg4326, projectTo),
+                            {description:'Mohit Sharma'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(75.924894, 26.934855).transform(epsg4326, projectTo),
+                            {description:'Harshit Prasad'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(88.2627, 27.036).transform(epsg4326, projectTo),
+                            {description:'Akshat Garg'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(75.7873, 26.9124).transform(epsg4326, projectTo),
+                            {description:'Parth Shandilya'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(79.92979849999999, 6.7949839999999995).transform(epsg4326, projectTo),
+                            {description:'Isuru Abeywardana'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.594563, 12.971599).transform(epsg4326, projectTo),
+                            {description:'Abhinav Khare'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(78.96288, 20.593684).transform(epsg4326, projectTo),
+                            {description:'Harsh Vardhan'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.587308, 13.128464).transform(epsg4326, projectTo),
+                            {description:'Zameer Ul Haque'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(76.8086956, 28.2453659).transform(epsg4326, projectTo),
+                            {description:'Vaibhav Singh'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(-74.451819, 40.486216).transform(epsg4326, projectTo),
+                            {description:'Harsh Kothari'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(-119.417932, 36.778261).transform(epsg4326, projectTo),
+                            {description:'Jigyasa Grover'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.209021, 28.613939).transform(epsg4326, projectTo),
+                            {description:'Saptak Sengupta'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(78.486671, 17.385044).transform(epsg4326, projectTo),
+                            {description:'Damini Satya'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.209021, 28.613939).transform(epsg4326, projectTo),
+                            {description:'Ashwani Kumar'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(78.486671, 17.385044).transform(epsg4326, projectTo),
+                            {description:'Nikhil Rayaprolu'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(10.451526, 51.165691).transform(epsg4326, projectTo),
+                            {description:'Nicco Kunzmann'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.594563, 12.971599).transform(epsg4326, projectTo),
+                            {description:'Sudheesh Singanamalla'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(72.651634, 23.233086).transform(epsg4326, projectTo),
+                            {description:'Anshuman Verma'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(75.787271, 26.912434).transform(epsg4326, projectTo),
+                            {description:'Rahul Tiwari'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(105.83416, 21.027764).transform(epsg4326, projectTo),
+                            {description:'Nguyen Vu Hung'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(72.636941, 23.215635).transform(epsg4326, projectTo),
+                            {description:'Sayan Chowdhury'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.453758, 28.669156).transform(epsg4326, projectTo),
+                            {description:'Suneet Srivastava'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(72.636941, 23.215635).transform(epsg4326, projectTo),
+                            {description:'Yash Ladha'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.209021, 28.613939).transform(epsg4326, projectTo),
+                            {description:'Vibhor Verma'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.321622, 28.682062).transform(epsg4326, projectTo),
+                            {description:'Manish Devgan'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.1019, 28.6687).transform(epsg4326, projectTo),
+                            {description:'Rupav Jain'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(81.961897, 27.133991).transform(epsg4326, projectTo),
+                            {description:'Tarun Kumar'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(70.80216, 22.303894).transform(epsg4326, projectTo),
+                            {description:'Shubham Padia'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(77.3, 28.6).transform(epsg4326, projectTo),
+                            {description:'Sanskar Jethi'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(52.52, 13.405).transform(epsg4326, projectTo),
+                            {description:'Jihye Sofia Seo'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(81.7728, 25.4275).transform(epsg4326, projectTo),
+                            {description:'Ayush Gupta'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+                
+                    var feature = new OpenLayers.Feature.Vector(
+                            new OpenLayers.Geometry.Point(88.3639, 22.5726).transform(epsg4326, projectTo),
+                            {description:'Deepjyoti Mondal'} ,
+                            {externalGraphic: 'img/mentor_marker.png', graphicHeight: 30, graphicWidth: 25, graphicXOffset:-12, graphicYOffset:-25}
+                    );
+                    vectorLayer.addFeatures(feature);
+                
+            
+
+            map.addLayer(vectorLayer);
+ 
+    
+            //Add a selector control to the vectorLayer with popup functions
+            var controls = {
+                selector: new OpenLayers.Control.SelectFeature(vectorLayer, { onSelect: createPopup, onUnselect: destroyPopup })
+            };
+
+            function createPopup(feature) {
+                feature.popup = new OpenLayers.Popup.FramedCloud("pop",
+                    feature.geometry.getBounds().getCenterLonLat(),
+                        null,
+                        '<div class="markerContent">'+feature.attributes.description+'</div>',
+                        null,
+                        true,
+                        function() { controls['selector'].unselectAll();
+                    });
+                //feature.popup.closeOnMove = true;
+                map.addPopup(feature.popup);
+            }
+
+            function destroyPopup(feature) {
+                feature.popup.destroy();
+                feature.popup = null;
+            }
+    
+            map.addControl(controls['selector']);
+            controls['selector'].activate();
+        </script>
+    </body>
+</html>
+

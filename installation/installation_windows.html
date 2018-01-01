@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Local Development Setup | gci17.fossasia.org</title>
+<meta property="og:title" content="Local Development Setup" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="FOSSASIA Google Code-In Website 2017/18 http://gci17.fossasia.org" />
+<meta property="og:description" content="FOSSASIA Google Code-In Website 2017/18 http://gci17.fossasia.org" />
+<link rel="canonical" href="http://localhost:4000/installation/installation_windows.html" />
+<meta property="og:url" content="http://localhost:4000/installation/installation_windows.html" />
+<meta property="og:site_name" content="gci17.fossasia.org" />
+<script type="application/ld+json">
+{"name":null,"description":"FOSSASIA Google Code-In Website 2017/18 http://gci17.fossasia.org","author":null,"@type":"WebPage","url":"http://localhost:4000/installation/installation_windows.html","publisher":null,"image":null,"headline":"Local Development Setup","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link href="/assets/css/style.css?v=9d252a0b2f3e5ec0dceabf000d5d2f9e5c89c15b" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+        <h1><a href="http://localhost:4000/">gci17.fossasia.org</a></h1>
+      
+
+      <h1 id="local-development-setup">Local Development Setup</h1>
+
+<p>The instructions on this page will guide you in setting up a local development
+environment in Windows OS.</p>
+
+<h3 id="ruby-installation">Ruby Installation</h3>
+<ol>
+  <li><a href="https://rubyinstaller.org/downloads/">Install Ruby and Development Kit</a>. During ruby installation check the “Add Ruby executables to your PATH” box.
+e.g. for 64-bit architecture install: <a href="https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.3.3-i386-mingw32.7z">Ruby2.3.3</a></li>
+  <li><a href="https://rubyinstaller.org/downloads/">Install corresponding Ruby DevKit</a> e.g. corresponding <a href="https://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe">developer kit</a>.
+When you execute the file , it’ll ask you for a destination for the files. Enter a path that has no spaces in it.</li>
+  <li>Navigate to the folder you extracted the DevKit using your Command Line. e.g. using <code class="highlighter-rouge">powershell</code> or <code class="highlighter-rouge">cmd</code></li>
+  <li>Enter <code class="highlighter-rouge">ruby dk.rb init</code> in the command line interface followed by <code class="highlighter-rouge">ruby dk.rb review</code> and finally <code class="highlighter-rouge">ruby dk.rb install</code> to complete the installation of the DevKit by binding it to your Ruby installation.</li>
+</ol>
+
+<h3 id="jekyll-installation">jekyll Installation</h3>
+<ol>
+  <li>Open cmd and type <code class="highlighter-rouge">gem install jekyll bundler</code></li>
+</ol>
+
+<h3 id="setting-up-locally">Setting up locally</h3>
+<ol>
+  <li>Fork this repository.</li>
+  <li>Open git terminal(Git bash in windows), and clone your forked repo i.e. <code class="highlighter-rouge">git clone https://github.com/&lt;your_username&gt;/gci17.fossasia.org.git</code> in the directory you want.</li>
+  <li>Change directory to the local repository i.e. <code class="highlighter-rouge">cd gci17.fossasia.org</code>. Now type <code class="highlighter-rouge">ls</code> to see if <code class="highlighter-rouge">Gemfile</code> can be seen.</li>
+  <li>Type <code class="highlighter-rouge">bundle install</code> to install dependencies.</li>
+  <li>Type <code class="highlighter-rouge">gem install jekyll-sitemap</code> and then <code class="highlighter-rouge">gem install jekyll-paginate</code>.(Not necessary, If it is installed in the previous step.)</li>
+  <li>Now open Gemfile(with any text editor e.g. sublime) and then remove ‘#’ in <code class="highlighter-rouge">#gem 'github-pages', group: :jekyll_plugins</code> and add ‘#’ to <code class="highlighter-rouge">gem 'jekyll-sitemap'</code> 
+<code class="highlighter-rouge">gem 'jekyll-paginate'</code>. Save the file.</li>
+  <li>Type in the git terminal <code class="highlighter-rouge">bundle exec jekyll serve </code>. You will see a Server address.</li>
+  <li>Now your server is up and running. To view gci17.fossasia.org page, go to <code class="highlighter-rouge">localhost:4000</code>.</li>
+</ol>
+
+
+      
+    </div>
+    <script src="/assets/javascript/anchor-js/anchor.min.js"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Konfiguracja lokalnego środowiska | gci17.fossasia.org</title>
+<meta property="og:title" content="Konfiguracja lokalnego środowiska" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="FOSSASIA Google Code-In Website 2017/18 http://gci17.fossasia.org" />
+<meta property="og:description" content="FOSSASIA Google Code-In Website 2017/18 http://gci17.fossasia.org" />
+<link rel="canonical" href="http://localhost:4000/installation/installation_macos(pl).html" />
+<meta property="og:url" content="http://localhost:4000/installation/installation_macos(pl).html" />
+<meta property="og:site_name" content="gci17.fossasia.org" />
+<script type="application/ld+json">
+{"name":null,"description":"FOSSASIA Google Code-In Website 2017/18 http://gci17.fossasia.org","author":null,"@type":"WebPage","url":"http://localhost:4000/installation/installation_macos(pl).html","publisher":null,"image":null,"headline":"Konfiguracja lokalnego środowiska","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link href="/assets/css/style.css?v=9d252a0b2f3e5ec0dceabf000d5d2f9e5c89c15b" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+        <h1><a href="http://localhost:4000/">gci17.fossasia.org</a></h1>
+      
+
+      <h1 id="konfiguracja-lokalnego-środowiska">Konfiguracja lokalnego środowiska</h1>
+
+<p>Instrukcje na tej stronie przeprowadzą Cię przez proces konfiguracji lokalnego środowiska programistycznego w MacOS.</p>
+
+<h3 id="instalacja-narzędzi-developerskich-apple">Instalacja narzędzi developerskich Apple</h3>
+<ol>
+  <li>Na OS X, otwórz swój folder aplikacji, następnie otwórz folder Ułatwień/Narzędzi. Otwórz Terminal.</li>
+  <li>Wpisz <code class="highlighter-rouge">xcode select --install</code>.</li>
+</ol>
+
+<h3 id="instalacja-homebrew">Instalacja Homebrew</h3>
+<ol>
+  <li>Enter <code class="highlighter-rouge">/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code> in the Terminal.</li>
+</ol>
+
+<h3 id="instalacja-ruby">Instalacja Ruby</h3>
+<ol>
+  <li>Wpisz w Terminalu <code class="highlighter-rouge">brew install ruby</code>.</li>
+  <li>Aby sprawdzić czy instalacja przebiegła pomyślnie, wpisz <code class="highlighter-rouge">which gem</code>. Jeśli zobaczysz <code class="highlighter-rouge">usr/local/bin/gem</code> wszystko jest zainstalowanie poprawnie.</li>
+</ol>
+
+<h3 id="instalacja-jekyll">Instalacja jekyll</h3>
+<ol>
+  <li>W terminalu wpisz <code class="highlighter-rouge">gem install jekyll bundler</code></li>
+</ol>
+
+<h3 id="lokalna-konfiguracja">Lokalna konfiguracja</h3>
+<ol>
+  <li><code class="highlighter-rouge">Fork</code> this repository.</li>
+  <li>Użyj gita aby sklonować repository które zforkowałeś, t.j.
+<code class="highlighter-rouge">git clone https://github.com/&lt;your_username&gt;/gci17.fossasia.org.git</code></li>
+  <li>Zmień ścieżkę do lokalnego repository, t.j. <code class="highlighter-rouge">cd gci17.fossasia.org</code>. Teraz wpisz <code class="highlighter-rouge">ls</code> aby zobaczyć czy <code class="highlighter-rouge">Gemfile</code> jest widoczny.</li>
+  <li>Wpisz <code class="highlighter-rouge">bundle install</code> aby zainstalować zależności.</li>
+  <li>Wpisz <code class="highlighter-rouge">bundle exec jekyll serve </code>. Zobaczysz adres serwera.</li>
+  <li>Teraz Twój serwer powinien działać. Aby zobaczyć stronę gci17.fossasia.org, otwórz w przeglądarce <code class="highlighter-rouge">localhost:4000</code>.</li>
+</ol>
+
+
+      
+    </div>
+    <script src="/assets/javascript/anchor-js/anchor.min.js"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
